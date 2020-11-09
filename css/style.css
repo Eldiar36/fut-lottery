@@ -302,7 +302,7 @@ header.main-header .navbar .navbar-collapse .header-menu li a:active, header.mai
     width: 72px;
     height: 40px;
     position: relative;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .lottery-options .data-box .items.first:after {
@@ -318,7 +318,7 @@ header.main-header .navbar .navbar-collapse .header-menu li a:active, header.mai
 .lottery-options .data-box .items.second {
     width: 108px;
     height: 40px;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .lottery-options .arrow-mobile {
@@ -543,7 +543,7 @@ header.main-header .navbar .navbar-collapse .header-menu li a:active, header.mai
     align-items: center;
     background: #391B3C;
     border-radius: 10px;
-    height: 38px;
+    height: 40px;
     width: 466px;
 }
 
@@ -585,10 +585,10 @@ header.main-header .navbar .navbar-collapse .header-menu li a:active, header.mai
     content: "";
     position: absolute;
     left: -15px;
-    top: 0;
+    top: -1px;
     background: url("../images/Group 328.svg") no-repeat;
     width: 6px;
-    height: 38px;
+    height: 40px;
 }
 
 .lottery_item .lottery-sum span {
@@ -630,17 +630,23 @@ header.main-header .navbar .navbar-collapse .header-menu li a:active, header.mai
     height: 50px;
     opacity: 0.5;
 }
-
+.draw .user.second .coupon-name{
+    height: 50px;
+}
 .draw .user.third {
     height: 40px;
     opacity: 0.2;
 }
-
+.draw .user.third .coupon-name{
+    height: 40px;
+}
 .draw .user.four {
     height: 40px;
     opacity: 0.08;
 }
-
+.draw .user.four .coupon-name {
+    height: 40px;
+}
 .draw .user .coupon-name {
     width: 35%;
     display: flex;
@@ -654,7 +660,15 @@ header.main-header .navbar .navbar-collapse .header-menu li a:active, header.mai
     position: relative;
     color: #333333;
 }
-
+.draw .user.second .coupon-name:after{
+    height: 50px;
+}
+.draw .user.third .coupon-name:after{
+    height: 40px;
+}
+.draw .user.four .coupon-name:after{
+    height: 40px;
+}
 .draw .user .coupon-name:after {
     content: "";
     background: url("../images/Group 328.svg");
@@ -946,7 +960,9 @@ header.main-header .navbar .navbar-collapse .header-menu li a:active, header.mai
         width: 180px;
         height: 40px;
     }
-
+    .lottery-options .data-title p.bank {
+        display: none;
+    }
     .lottery-options .data-box .items.third:after {
         content: "";
         height: 57px;
@@ -1053,12 +1069,23 @@ header.main-header .navbar .navbar-collapse .header-menu li a:active, header.mai
         margin-left: 23px;
         display: flex;
     }
+    .lottery-options .data-box .arrow-mobile.left-arrow.corona {
+        margin-right: auto;
+        margin-left: 20px;
+        display: flex;
+    }
+
+    .lottery-options .data-box .arrow-mobile.right-arrow.corona {
+        margin-left: auto;
+        margin-right: 20px;
+        display: flex;
+    }
 
     .lottery-options .data-box .items.first:after {
         content: "";
         background: url("../images/Group 307.svg") no-repeat;
         width: 6px;
-        height: 38px;
+        height: 40px;
         position: absolute;
         right: 0;
         top: 0;
