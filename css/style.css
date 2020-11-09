@@ -1,0 +1,1174 @@
+a,
+a:hover {
+    text-decoration: none;
+}
+body {
+    background: #000000;
+    font-family: "DIN Pro", sans-serif;
+}
+
+header.main-header {
+    height: 75px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .6), transparent);
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+}
+
+nav.navbar.navbar-expand-lg {
+    padding-top: 15px;
+}
+
+header.main-header .navbar-brand {
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    width: 30px;
+    height: 30px;
+}
+
+header.main-header .navbar .navbar-collapse .header-menu li a {
+    font-family: 'DIN Pro Cond';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    padding: 10px;
+    color: #828282;
+}
+header.main-header .navbar .navbar-collapse .header-menu li.active a {
+    font-weight: 900;
+    font-style: normal;
+    color: #44FFC9;
+}
+
+.header-authorize.autorized {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+}
+
+.header-authorize.autorized li a, .header-authorize.autorized li a .coins_icon {
+    transition: all .3s;
+}
+
+.header-authorize.autorized a {
+    text-decoration: none;
+    display: inline-block;
+    color: #828282;
+    padding: 10px 12px;
+}
+
+header.main-header .header-authorize .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px 15px;
+}
+
+span.coins_icon {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background: url(../images/fut_small_icon.svg);
+    color: #766318;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+span.coins {
+    margin-right: 10px;
+}
+
+.header-authorize.autorized .nav-item.dropdown {
+    padding: 0 15px;
+}
+
+header.main-header .header-authorize .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px 15px;
+}
+
+.header-authorize.autorized a {
+    text-decoration: none;
+    display: inline-block;
+    color: #828282;
+}
+
+header.main-header .header-authorize .dropdown-menu {
+    background-color: #000;
+    /* border-radius: 0 0 25px 25px; */
+    padding: 10px 20px;
+    /* padding-top: 55px; */
+    /* top: -10px; */
+    margin: 0;
+    border: 0;
+    width: 190px;
+    right: 0px;
+}
+
+header.main-header .navbar .header-authorize li:last-child a {
+    padding-right: 0;
+}
+
+.header-authorize.autorized {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    /* padding: 0 10px; */
+}
+
+.dropdown .dropdown-toggle:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    border: solid 11px transparent;
+    border-right: solid 16px #828282;
+    right: -12px;
+    top: 12px;
+    transform: rotate(-90deg);
+    /* transform-origin: center; */
+    transform-origin: 75% 50%;
+    transition: all .4s;
+}
+
+span.avatar_icon {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background: url(../images/avatar.svg);
+    /* line-height: 30px; */
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.header-authorize .dropdown-toggle .login {
+    font-family: 'DIN Pro Cond';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.header-authorize .dropdown-toggle .login span.id {
+    display: inline-block;
+    background: #333;
+    font-size: 0.6em;
+    border-radius: 10px;
+    padding: 2px 7px;
+    color: #ddd;
+    vertical-align: text-top;
+    margin-left: 3px;
+    font-style: normal;
+}
+
+.dropdown .dropdown-toggle:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    border: solid 6px transparent;
+    border-right: solid 8px #191919;
+    top: 17px;
+    right: -9px;
+    transform: rotate(-90deg);
+    /* transform-origin: center; */
+    transform-origin: 75% 50%;
+    transition: all .4s;
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1170px;
+    }
+}
+
+.header-authorize.autorized > li > .dropdown-menu a {
+    padding: 8px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: all .4s;
+    font-family: 'DIN Pro Cond',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    vertical-align: middle;
+    color: #828282;
+}
+
+header.main-header .header-authorize .dropdown-item {
+    white-space: unset;
+    padding: 10px 0;
+}
+
+.header-authorize.autorized a svg {
+    fill: #838383;
+    stroke: #838383;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+header.main-header .header-authorize .dropdown-item .dropdown-item__text {
+    vertical-align: middle;
+}
+
+header.main-header .navbar .navbar-collapse .header-menu li a:hover {
+    text-decoration: none;
+    /* color: #44FFC9; */
+    color: #fff;
+}
+
+header.main-header .navbar .navbar-collapse .header-menu li a:active, header.main-header .navbar .navbar-collapse .header-menu li a:focus {
+    text-decoration: none;
+    color: #44FFC9;
+    /* color: #fff; */
+    outline: none;
+}
+
+#lottery-options {
+    padding: 98px 0 58px 0;
+}
+
+.lottery-options .main-row {
+    justify-content: center;
+}
+
+.lottery-options .user-data {
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.lottery-options .block-title {
+    font-family: 'DIN Pro Cond',sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #44FFC9;
+    margin-bottom: 0;
+}
+
+.lottery-options .user-data .data .data-titles p {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    color: #00B2BC;
+    text-transform: uppercase;
+}
+
+.lottery-options .user-data .data .data-titles p:first-child {
+    margin-right: 30px;
+}
+
+.lottery-options .box img {
+    margin: 0 21px 7px 15px;
+}
+
+.lottery-options .box .left {
+    align-items: flex-end;
+}
+
+.lottery-options .data-box {
+    background: #828282;
+    border-radius: 10px;
+    width: 180px;
+    height: 40px;
+}
+
+.lottery-options .data-box .items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.lottery-options .data-box .items.first {
+    width: 72px;
+    height: 40px;
+    position: relative;
+    color: #000000;
+}
+
+.lottery-options .data-box .items.first:after {
+    content: "";
+    position: absolute;
+    right: -93%;
+    top: 0;
+    background: url("../images/Group 328.svg") no-repeat;
+    height: 40px;
+    width: 100%;
+}
+
+.lottery-options .data-box .items.second {
+    width: 108px;
+    height: 40px;
+    color: #FFFFFF;
+}
+
+.lottery-options .arrow-mobile {
+    display: none;
+}
+
+.lottery-options .coupon form {
+    display: flex;
+    width: 356px;
+    height: 66px;
+    padding: 13px 0 13px 13px;
+    background: #191919;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    z-index: 9999999;
+}
+
+.lottery-options .coupon form input {
+    width: 224px;
+    height: 40px;
+    background: #1A1A1A;
+    border: 2px solid #333333;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 12px 12px 12px 14px;
+    color: #828282;
+    margin-right: auto;
+    position: relative;
+    z-index: 9999999;
+}
+
+.lottery-options .coupon form input::placeholder {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+
+.lottery-options .coupon form a {
+    margin-right: -50px;
+    width: 150px;
+    height: 37px;
+    background: #00F1FC;
+    box-shadow: 0 8px 28px -6px rgba(24, 39, 75, 0.12), 0 18px 88px -4px rgba(24, 39, 75, 0.14);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    color: #163A3E;
+    position: relative;
+}
+
+.lottery-options .coupon form a:after {
+    content: "";
+    width: 150px;
+    height: 37px;
+    background: #00B2BC;
+    box-shadow: 0 8px 28px -6px rgba(24, 39, 75, 0.12), 0 18px 88px -4px rgba(24, 39, 75, 0.14);
+    border-radius: 5px;
+    position: absolute;
+    right: -3px;
+    bottom: -3px;
+    z-index: -1;
+}
+.lottery-options .data-box.two {
+    width: 100%;
+    height: 57px;
+}
+
+.lottery-options .data-box .items.third {
+    width: 30%;
+    height: 57px;
+    color: #000000;
+}
+
+.lottery-options .data-box .items.four {
+    width: 45%;
+    height: 57px;
+    color: #F5F651;
+    font-style: italic;
+}
+
+.lottery-options .data-box .items.five {
+    width: 25%;
+    height: 57px;
+}
+
+.lottery-options .data-box .items.third:after,
+.lottery-options .data-box .items.four:after {
+    content: "";
+    height: 57px;
+    background: url("../images/Group 307.svg") no-repeat;
+    background-size: cover;
+    width: 7px;
+    position: absolute;
+    right: -2px;
+    top: 0;
+}
+
+.lottery-options .box.third {
+    margin-top: 10px;
+}
+
+.lottery-options .data-title {
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.lottery-options .data-title p {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    color: #828282;
+    margin-bottom: 9px;
+}
+
+.lottery-options .time-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.time .title {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    color: #828282;
+    margin-left: 60px;
+}
+
+#lottery-options .time-wrapper .arrow {
+    margin-right: 24px;
+}
+
+#lottery-options .time-wrapper .item {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80px;
+    margin-right: 20px;
+}
+
+#lottery-options .time-wrapper .item .num {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+#lottery-options .time-wrapper .item .subtitle {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #828282;
+    margin-bottom: 0;
+}
+
+
+#lotterys {
+    padding: 57px 0 50px 0;
+}
+
+#lotterys .main-row {
+    justify-content: center;
+}
+
+#lotterys .row-title,
+.lotterys .row-title {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+
+#lotterys .row-title span,
+.lotterys .row-title span {
+    color: #9F2FA7;
+    font-size: 14px;
+}
+
+.lottery_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.lottery_item .info {
+    display: flex;
+    align-items: center;
+    background: #391B3C;
+    border-radius: 10px;
+    height: 38px;
+    width: 466px;
+}
+
+.lottery_item .num {
+    font-weight: bold;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -1px;
+    color: #000000;
+    margin-bottom: 0;
+    width: 95px;
+    height: 38px;
+}
+
+.lottery_item .arrow {
+    margin: 0 20px 0 0;
+}
+
+.lottery_item .user-name {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -1px;
+    color: #000000;
+    margin-bottom: 0;
+    margin-right: auto;
+}
+
+.lottery_item .lottery-sum {
+    margin: 0;
+    width: 102.95px;
+    height: 38px;
+    position: relative;
+}
+
+.lottery_item .lottery-sum:before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 0;
+    background: url("../images/Group 328.svg") no-repeat;
+    width: 6px;
+    height: 38px;
+}
+
+.lottery_item .lottery-sum span {
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.lottery_item .corona {
+    margin-left: 20px;
+}
+
+#lotterys .col-lg-6 {
+    padding: 0 9px;
+}
+
+.lottery_item:hover {
+    text-decoration: none;
+}
+
+.draw {
+    display: flex;
+    align-items: center;
+}
+
+.draw .user {
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 60px;
+    margin: 20px;
+}
+
+.draw .user.second {
+    height: 50px;
+    opacity: 0.5;
+}
+
+.draw .user.third {
+    height: 40px;
+    opacity: 0.2;
+}
+
+.draw .user.four {
+    height: 40px;
+    opacity: 0.08;
+}
+
+.draw .user .coupon-name {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -1px;
+    position: relative;
+    color: #333333;
+}
+
+.draw .user .coupon-name:after {
+    content: "";
+    background: url("../images/Group 328.svg");
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60px;
+    width: 6px;
+}
+
+.draw .user .user-name {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.draw .user .user-name p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -2px;
+    color: #333333;
+    margin-left: 13px;
+    margin-bottom: 0;
+}
+
+.box.third .data {
+    margin-bottom: 63px;
+}
+
+.lotterys .lottery_item.two {
+    margin-bottom: 0;
+}
+
+.lotterys.pc {
+    margin-bottom: -55px;
+}
+
+.lotterys-mobile {
+    display: none;
+}
+
+#lottery-draw {
+    padding: 30px 0 120px 0;
+}
+
+.lotterys-draw_footer {
+    position: absolute;
+    bottom: 0;
+}
+
+#footer {
+    background: #000;
+    width: 100%;
+    z-index: 10;
+    height: 100px;
+    overflow: hidden;
+}
+
+#footer .nav.nav-pills a {
+    color: #828282;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'DIN Pro Cond',sans-serif;
+    font-weight: bold;
+    padding: .3rem .7rem;
+}
+
+#copyright {
+    /* margin: 33px -15px; */
+    color: #333333;
+    font-size: 16px;
+    /* text-transform: uppercase; */
+    line-height: 2.5;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .lottery-options .block-title {
+        font-family: 'DIN Pro Cond',sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 45px;
+        line-height: 46px;
+    }
+
+    .lottery-options .box img {
+        margin: 0 21px 7px 15px;
+        width: 25px;
+    }
+
+    .lottery-options .user-data .data .data-titles p {
+        font-weight: bold;
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    .lottery-options .data-box .items {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    #lottery-options .time-wrapper .item {
+        height: 65px;
+        margin-right: 13px;
+    }
+
+    #lottery-options .time-wrapper .item .num {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 33px;
+        margin-bottom: 2px;
+    }
+
+    #lottery-options .time-wrapper .arrow {
+        margin-right: 15px;
+    }
+
+    #lottery-options .time-wrapper .arrow svg {
+        width: 25px;
+    }
+
+    #lottery-options .time-wrapper .corona svg {
+        width: 25px;
+    }
+
+    #lotterys .row-title, .lotterys .row-title {
+        text-align: center;
+    }
+
+    .lottery_item .lottery-sum span {
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .lottery_item .info {
+        width: 100%;
+    }
+
+    .item-row {
+        justify-content: center;
+    }
+
+    #lottery-options .box.third .data {
+        margin-bottom: 0
+    }
+}
+
+@media (max-width: 991px) {
+    #lottery-options {
+        padding: 40px 0 35px 0;
+    }
+
+    .lottery-options .coupon form {
+        width: 82%;
+        margin: 20px 0 10px 0;
+    }
+
+    .lottery-options .coupon form input {
+        width: 80%;
+    }
+
+    .lottery-options .box .left svg {
+        width: 240px;
+    }
+
+    #lottery-options .time-wrapper .arrow {
+        display: none;
+    }
+
+    #lottery-options .time-wrapper .corona {
+        display: none;
+    }
+
+    .time .title {
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .lottery-options .time-wrapper {
+        justify-content: center;
+    }
+
+    .user-list {
+        width: 100%;
+    }
+
+    .draw .user {
+        margin: 20px 20px;
+        width: auto;
+    }
+
+    .lotterys-draw_footer {
+        position: relative;
+    }
+
+    .lotterys.pc {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .lot-options {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lottery-options .box img {
+        display: none;
+    }
+
+    .lottery-options .user-data {
+        margin-top: 10px;
+    }
+
+    .main-row .col-lg-10 {
+        padding: 0 15px !important;
+    }
+
+    .lotterys.pc {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .lottery-options .block-title {
+        font-size: 70px;
+        line-height: 60px;
+        margin-bottom: 5px;
+    }
+
+    .lottery-options .coupon form {
+        width: 89%;
+    }
+
+    .lottery-options .coupon form input {
+        width: 151px;
+        outline: none;
+    }
+
+    .lottery-options .coupon form input::placeholder {
+        font-size: 14px;
+    }
+
+    #lottery-options .time-wrapper .item {
+        height: 68px;
+    }
+
+    #lottery-options .time-wrapper .item .num {
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 42px;
+        margin-bottom: 0;
+    }
+
+    .lottery-options .data-box.two {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .lottery-options .data-box .items.four {
+        width: 100%;
+        order: 3;
+        background: #828282;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .lottery-options .data-box .items.third {
+        order: 1;
+        width: 50%;
+    }
+
+    .lottery-options .data-box .items.five {
+        order: 2;
+        width: 50%;
+    }
+
+    .lottery-options .data-box {
+        background: #828282;
+        border-radius: 10px;
+        width: 180px;
+        height: 40px;
+    }
+
+    .lottery-options .data-box .items.third:after {
+        content: "";
+        height: 57px;
+        background: url("../images/Group 307.svg") no-repeat;
+        background-size: cover;
+        width: 6px;
+    }
+
+    .lottery-options .data-box .items.four:after {
+        right: 0;
+        top: 0;
+        left: 0;
+        margin: auto;
+        background: url("../images/Group 359.svg");
+        width: 100%;
+        height: 6px;
+    }
+
+    #lotterys {
+        padding: 0 0 20px 0;
+    }
+
+    .lottery_item .info {
+        width: 100%;
+    }
+
+    .lottery_item .num {
+        font-size: 20px;
+        width: auto;
+        padding-left: 10px;
+        letter-spacing: -1px;
+    }
+
+    .lottery_item .arrow {
+        margin: 0 10px 0 10px;
+        width: 20px;
+    }
+
+    .lottery_item .lottery-sum {
+        margin: 0;
+        width: auto;
+        padding-right: 10px;
+    }
+
+    .lottery_item .lottery-sum span {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .lottery_item .user-name {
+        font-size: 16px;
+        letter-spacing: -1px;
+    }
+
+    .lottery_item .corona {
+        display: none;
+    }
+
+    .lottery-options .arrow-mobile {
+        display: block;
+    }
+
+    .lottery-options .data-box.first {
+        background: none;
+        width: auto;
+        align-items: center;
+    }
+
+    .lottery-options .data-box.first .items {
+        background: #828282;
+    }
+
+    .lottery-options .data-box.first .items.second {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .lottery-options .data-box.first .items.first {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .lottery-options .data-box .items.second {
+        width: 108px;
+        height: 40px;
+        color: #000000;
+    }
+
+    .lottery-options .data-box .items.first {
+        width: 72px;
+        height: 40px;
+        margin-right: -1px;
+        color: #FFFFFF;
+    }
+
+    .lottery-options .data .data-titles {
+        padding: 0 20%;
+    }
+
+    .lottery-options .data-box .arrow-mobile.left-arrow {
+        margin-right: 23px;
+        display: flex;
+    }
+
+    .lottery-options .data-box .arrow-mobile.right-arrow {
+        margin-left: 23px;
+        display: flex;
+    }
+
+    .lottery-options .data-box .items.first:after {
+        content: "";
+        background: url("../images/Group 307.svg") no-repeat;
+        width: 6px;
+        height: 38px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 10;
+    }
+
+    .lottery-options .coupon form {
+        width: 257px;
+    }
+
+    .coupon {
+        position: relative;
+    }
+
+    form {
+        position: initial;
+    }
+
+    .lottery-options .coupon form a {
+        width: 140px;
+        font-size: 15px;
+        position: absolute;
+        right: -33px;
+        top: 15px;
+    }
+
+    .draw {
+        flex-direction: column;
+        margin-top: -30px;
+    }
+
+    .draw .arrow svg {
+        transform: rotate(90deg);
+    }
+
+    .draw .win {
+        display: none;
+    }
+
+    .draw .user {
+        margin: 20px 0;
+    }
+
+    .lottery-options .coupon form a:after {
+        width: 140px;
+        font-size: 15px;
+    }
+
+    .lotterys.pc {
+        display: none;
+    }
+
+    .lotterys.lotterys-mobile {
+        display: block;
+        margin-top: 46px;
+    }
+
+    #lottery-draw {
+        padding: 30px 0 30px 0;
+    }
+}
+
+@media (max-width: 370px) {
+    .draw .user .coupon-name {
+        font-size: 24px;
+    }
+
+    .draw .user .user-name {
+        justify-content: flex-start;
+    }
+
+    .draw .user .user-name svg {
+        width: 25px;
+        margin-left: 15px;
+    }
+
+    .draw .user .user-name p {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .lottery-options .coupon form input {
+        width: 140px
+    }
+
+    .lottery-options .coupon form a {
+        width: 119px;
+        font-size: 13px;
+        right: 20px;
+    }
+
+    .lottery-options .coupon form a:after {
+        width: 119px;
+    }
+
+    .lottery_item .arrow {
+        margin: 0 10px 0 10px;
+        width: 15px;
+    }
+
+    .lottery_item .num {
+        font-size: 17px;
+        width: auto;
+        padding-left: 7px;
+    }
+
+    .lottery_item .lottery-sum {
+        margin: 0;
+        width: auto;
+        padding-right: 7px;
+    }
+}
